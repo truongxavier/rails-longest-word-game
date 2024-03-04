@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+ ul {
+  display: flex; /* Utilisez des carrés */
+}
+li {
+  margin: 10px; /* Espacement entre les éléments de liste */
+  color: white; /* Couleur du texte */
+  background-color: rgb(79, 79, 170); /* Couleur de fond des carrés */
+  padding: 20px; /* Espacement autour des carrés */
+}

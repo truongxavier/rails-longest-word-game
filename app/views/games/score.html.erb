@@ -1,0 +1,10 @@
+<h1>Result</h1>
+<div>
+  <ul>
+    <li>Your word: <%= @score_response[:attempt] %></li>
+    <li>Time Taken to answer: <%= @score_response[:time] %></li>
+    <li>Your score: <%= @score_response[:score] %></li>
+    <li><%= @score_response[:message] %></li>
+  </ul>
+</div>
+<%= link_to 'Retry the game', new_path %>
